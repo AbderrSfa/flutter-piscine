@@ -85,12 +85,13 @@ class _HomePageState extends State<HomePage> {
 
               // Button Section
               Expanded(
-                flex: 4,
+                flex: 3,
                 child: Column(
                   children: [
                     // Row 1: 7, 8, 9, C, AC
                     Expanded(
                       child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           CalculatorButton(
                             text: '7',
@@ -121,6 +122,7 @@ class _HomePageState extends State<HomePage> {
                     // Row 2: 4, 5, 6, +, -
                     Expanded(
                       child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           CalculatorButton(
                             text: '4',
@@ -151,6 +153,7 @@ class _HomePageState extends State<HomePage> {
                     // Row 3: 1, 2, 3, *, /
                     Expanded(
                       child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           CalculatorButton(
                             text: '1',
@@ -181,6 +184,7 @@ class _HomePageState extends State<HomePage> {
                     // Row 4: 0, 00, ., =
                     Expanded(
                       child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           CalculatorButton(
                             text: '0',
